@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(219, 233, 246);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+   
+    list-style-type: none;
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img{
+    height: 7vmin;
+    width: 7vmin;
+    padding: 0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}

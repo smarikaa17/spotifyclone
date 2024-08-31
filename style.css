@@ -10,7 +10,7 @@ body{
 nav ul{
     display: flex;
     align-items: center;
-   
+    height: 65px;
     list-style-type: none;
     background-color: black;
     color: white;
@@ -22,7 +22,7 @@ nav ul li{
 }
 
 .brand img{
-    height: 7vmin;
+   
     width: 7vmin;
     padding: 0 8px;
 }
@@ -36,23 +36,24 @@ nav ul li{
 
 .container{
     min-height: 72vh;
+    
     background-color: black;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
-    width: 70%;
     margin: 23px auto;
     border-radius: 12px;
-padding: 34px;
-background-image: url('./essentia/pics/bg.jpg');
-background-size: contain;
-background-repeat: no-repeat;
-background-position: center;
+    padding: 34px;
+    background-image: url('./essentia/pics/bg.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-direction: column;
 }
 
 .bottom{
     position: sticky;
-    height: 12vmin;
+    height: 130px;
     background-color: black;
     bottom:0px;
     display: flex;
@@ -60,10 +61,6 @@ background-position: center;
     justify-content: center;
     color: white;
     flex-direction: column;
-   
-    
-
-
 }
 .icons{
     margin-top: 14px;
@@ -75,4 +72,31 @@ background-position: center;
 
 #myprogressbar{
     width: 80vw;
+    cursor: pointer;
+}
+
+.songitem{
+    height: 50px;
+    width: 25%;
+display: flex;
+background-color: white;
+color: black;
+margin: 12px 0;
+justify-content: space-between;
+align-items: center;
+border-radius: 30px;
+
+}
+
+.songitem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timestamp{
+    margin:0 23px;
+}
+.timestamp i{
+    cursor: pointer;
 }
